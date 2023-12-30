@@ -1,4 +1,4 @@
-# Israel- News-live-api
+# Israel- news-live-api
 
 
 ## To run this project
