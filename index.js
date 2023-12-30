@@ -6,64 +6,59 @@ const app = express()
 
 const newspapers = [
     {
-        name: 'cityam',
-        address: 'https://www.cityam.com/london-must-become-a-world-leader-on-climate-change-action/',
-        base: ''
-    },
-    {
         name: 'thetimes',
-        address: 'https://www.thetimes.co.uk/environment/climate-change',
+        address: 'https://www.thetimes.co.uk/search?source=search-page&q=israel',
         base: ''
     },
     {
         name: 'guardian',
-        address: 'https://www.theguardian.com/environment/climate-crisis',
+        address: 'https://www.theguardian.com/international',
         base: '',
     },
     {
         name: 'telegraph',
-        address: 'https://www.telegraph.co.uk/climate-change',
+        address: 'https://www.telegraph.co.uk/israel-hamas-war',
         base: 'https://www.telegraph.co.uk',
     },
     {
         name: 'nyt',
-        address: 'https://www.nytimes.com/international/section/climate',
+        address: 'https://www.nytimes.com/news-event/israel-hamas-gaza',
         base: '',
     },
     {
         name: 'latimes',
-        address: 'https://www.latimes.com/environment',
+        address: 'https://www.latimes.com/world-nation',
         base: '',
     },
     {
         name: 'smh',
-        address: 'https://www.smh.com.au/environment/climate-change',
+        address: 'https://www.smh.com.au/world/middle-east',
         base: 'https://www.smh.com.au',
     },
 
     {
         name: 'bbc',
-        address: 'https://www.bbc.co.uk/news/science_and_environment',
+        address: 'https://www.bbc.com/news/topics/c2vdnvdg6xxt',
         base: 'https://www.bbc.co.uk',
     },
     {
         name: 'es',
-        address: 'https://www.standard.co.uk/topic/climate-change',
+        address: 'https://www.standard.co.uk/news/world',
         base: 'https://www.standard.co.uk'
     },
     {
         name: 'sun',
-        address: 'https://www.thesun.co.uk/topic/climate-change-environment/',
+        address: 'https://www.thesun.co.uk/news/worldnews/',
         base: ''
     },
     {
         name: 'dm',
-        address: 'https://www.dailymail.co.uk/news/climate_change_global_warming/index.html',
+        address: 'https://www.dailymail.co.uk/home/latest/index.html#news',
         base: ''
     },
     {
         name: 'nyp',
-        address: 'https://nypost.com/tag/climate-change/',
+        address: 'https://nypost.com/news/',
         base: ''
     }
 ]
